@@ -39,6 +39,19 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Map E to move to the end of the line
+nnoremap E $
+" Map B to move to the beginning of the line
+nnoremap B ^
+
+" Copy entire function
+nnoremap <leader>cf [m/{<CR>V%y
+
+" Map E to move to the end of the line in visual mode
+vnoremap E $
+" Map B to move to the beginning of the line in visual mode
+vnoremap B ^
+
 nnoremap <leader>e :vsc View.SolutionExplorer<CR>  " Open Solution Explorer
 
 " Enable break indent
